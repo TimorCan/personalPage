@@ -1,0 +1,156 @@
+/*通用设置*/
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: #f6f5f5;
+
+}
+
+#navgationBar
+{
+   background-color: deepskyblue;
+    height: 150px;
+    text-align: center;
+
+}
+
+#navgationBar p
+{
+    color: white;
+    display: inline-block;
+    /*background-color: red;*/
+}
+
+#navgationBar .nav-back-icon
+{
+    float: left;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+#navgationBar .nav-share-icon
+{
+    float: right;
+    margin-right: 35px;
+    margin-top: 50px;
+}
+
+#navgationBar .nav-back-title
+{
+    float: left;
+    margin-left: 5px;
+    font-size: 24px;
+    height: 150px;
+    line-height: 150px;
+
+}
+
+#navgationBar .nav-title
+{
+    height: 150px;
+    line-height: 150px;
+    font-size: 30px;
+
+}
+.topTB
+{
+   margin-top: 20px;
+
+}
+
+.bottomTB
+{
+    border-bottom: 1px solid #d6d7dc;
+}
+.tableCell
+{
+    background: url("../image/tip_right.png")white no-repeat 97%;
+    height: 85px;
+    line-height: 85px;
+    border-top: 1px solid #d6d7dc;
+}
+
+.tableCell span
+{
+    margin-left: 30px;
+    font-size: 24px;
+    font-family: "Heiti TC";
+    color: #646464;
+}
+
+.tableCell img
+{
+    margin-left: 32px;
+}
+
+.tableCellHeadView
+{
+    background: url("../image/tip_right.png")white no-repeat 97%;
+    height: 173px;
+    border-bottom: 1px solid #d6d7dc;
+    /*background-color: rebeccapurple;*/
+
+}
+
+.tableCellHeadViewSection1 span
+{
+    font-size: 24px;
+    font-family: "Heiti TC";
+    color: #323232;
+    margin-left: 12px;
+    float: left;
+    /*background-color: red;*/
+    height: 173px;
+    line-height: 173px;
+}
+.tableCellHeadViewSection1 img
+{
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 123px;
+    height: 123px;
+}
+
+.tableCellHeadViewSection2
+{
+    float: left;
+    background: url("../image/background.png") no-repeat;
+    background-size: 100% 100%;
+    width: 160px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 30px;
+    text-align: center;
+    opacity:0.9;
+    /*background-color: moccasin;*/
+
+    margin-left: -124px;
+    margin-top: 105px;
+}
+.tipArrow
+{
+    background: url("../image/8.png") no-repeat 82%;
+}
+
+.tableCellHeadViewSection2 img
+{
+    margin-left: -20px;
+}
+.tableCellHeadViewSection2 span{
+    color: white;
+    font-size: 15px;
+}
